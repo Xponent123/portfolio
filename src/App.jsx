@@ -4,19 +4,15 @@ import { useTheme } from "./context/ThemeContext.jsx";
 import { Footer, Navbar } from "./components";
 import { About, Contact, Home, Projects } from "./pages";
 
-// Determine if we're running in production (GitHub Pages)
-const isProduction = import.meta.env.MODE === 'production';
-const basename = isProduction ? '/portfolio' : '/';
-
 const App = () => {
   const { isDarkMode } = useTheme();
   
   return (
     <main className={`${isDarkMode ? 'bg-gray-900 text-white' : 'bg-slate-300/20 text-black'} min-h-screen transition-colors duration-300 pt-16`}>
-      <Router basename={basename}>
+      <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/portfolio' element={<Home />} />
           <Route
             path='/*'
             element={
