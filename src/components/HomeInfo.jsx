@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         Hi, I'm
         <span className='font-semibold mx-2 text-white'>Jal</span>
         <br />
-        An Electronics & Communcication Engineering student
+        An Electronics & Communication Engineering student
       </h1>
     );
 
@@ -21,7 +21,7 @@ const HomeInfo = ({ currentStage }) => {
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
+          More About Me
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -36,7 +36,7 @@ const HomeInfo = ({ currentStage }) => {
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
-          Visit my portfolio
+          Visit My Projects
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
