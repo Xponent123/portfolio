@@ -1,9 +1,8 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import python from '../assets/icons/python.png';
 import rust from '../assets/icons/rust.png';
 import ros from '../assets/icons/ros.png';
 import ltspice from '../assets/icons/ltspice.png';
-import erc  from '../assets/images/erc.png';
+import erc from '../assets/images/erc.png';
 import spc from '../assets/images/spc.jpeg';
 import rrc from '../assets/images/rrc_logo.png';
 import mail from '../assets/icons/mail.png';
@@ -13,8 +12,6 @@ import nfs from '../assets/icons/nfs.png';
 import bsr from '../assets/icons/bsr.png';  
 import twit from '../assets/icons/twit.png';
 import {
-    car,
-    contact,
     css,
     estate,
     express,
@@ -24,21 +21,12 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
-    nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
-    snapgram,
     summiz,
     tailwindcss,
-    threads,
-    typescript
 } from "../assets/icons";
-import { desc } from "framer-motion/client";
 
 export const skills = [
     {
