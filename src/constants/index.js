@@ -11,6 +11,8 @@ import music from '../assets/icons/music.png';
 import nfs from '../assets/icons/nfs.png';
 import bsr from '../assets/icons/bsr.png';  
 import twit from '../assets/icons/twit.png';
+import game from '../assets/icons/game.svg';
+
 import {
     css,
     estate,
@@ -186,9 +188,9 @@ export const projects = [
     {
         iconUrl: twit,
         theme: 'btn-back-pink',
-        name: 'Full Stack Twitter Clone',
-        description: 'Built a Twitter like social media app, enabling users to post and comment in threaded conversations.',
-        link: 'Coming Soon',
+        name: 'ConnectX',
+        description: 'Built a Threads like social media app, enabling users to post and comment in threaded conversations.',
+        link: 'https://github.com/Xponent123/social_media',
     },
     {
         iconUrl: estate,
@@ -197,7 +199,7 @@ export const projects = [
         description: 'Designed a 4 bit CLA adder using static CMOS implementation, and simulated it using NgSpice. Created a layout using Magic VLSI and extracted the netlist. Also performed verilog simulations and implemented the code on FPGA using Vivado.',
         link: 'https://github.com/Xponent123/carry_lookahead_adder',
     },
-     {
+    {
         iconUrl: bsr,
         theme: 'btn-back-orange',
         name: 'Buy Sell IIITH',
@@ -217,5 +219,12 @@ export const projects = [
         name: 'RISCV Processor',
         description: 'Designed a 5 stage pipelined RISC-V processor using Verilog HDL. Took care of control signals and data hazards as well.',
         link: 'https://github.com/Xponent123/riscv_processor',
+    },
+    {
+        iconUrl: game ,
+        theme: 'btn-back-lime',
+        name: 'Game Boy Emulator',
+        description: ' Built a cycle-accurate Game Boy/Game Boy Color emulator with GPU rendering, sound, input handling, and save-state support. Implemented MBC0–MBC4 with RTC and battery-backed saves.',
+        link: 'https://github.com/Xponent123/gb_emulator',
     }
 ];
